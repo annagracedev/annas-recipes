@@ -1,0 +1,140 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Merriweather", serif;
+    margin-block: 4px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22;
+}
+
+h4 {
+  font-size: 20;
+}
+
+h5 {
+  font-size: 18;
+}
+
+h6 {
+  font-size: 16;
+}
+
+p, ol, ul {
+  font-family: "Cabin", sans-serif;
+  padding: 0px;
+  margin: 4px 0px 16px 0px;
+}
+
+.header p, .header ul, .footer p {
+  margin: 16px;
+}
+
+.header p, .header ul {
+  font-family: "Merriweather", serif;
+}
+
+.header li {
+  list-style-type: none;
+  margin: 0px;
+}
+
+.index ul {
+  list-style-type: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #EDEDED;
+  padding: 0px 20px;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.index h1, .content h1, .page h1 {
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.index ul {
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.index h1, .content h1, .page h1 {
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.page li, .index li, .content li {
+  margin-bottom: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #EDEDED;
+}
