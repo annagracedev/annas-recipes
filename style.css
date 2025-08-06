@@ -65,6 +65,7 @@ body {
   flex-direction: column;
   margin: 0px;
   min-height: 100vh;
+  line-height: 1.5rem;
 }
 
 .header {
